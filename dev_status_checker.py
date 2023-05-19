@@ -46,7 +46,7 @@ async def main_devchecker():
                             xxx_teletips += f"\n\n╭⎋ **[{bot_info.first_name}](tg://user?id={bot_info.id})**\n╰⊚ **sᴛᴀᴛᴜs: ᴏғғʟɪɴᴇ ❄**"
                             for bot_admin_id in BOT_ADMIN_IDS:
                                 try:
-                                    await app.send_message(int(GRP_ID), f"**ʙsᴅᴋ ᴋʏᴀ ᴋᴀʀ ʀᴀʜᴀ ʜᴀɪ 😡\n[{bot_info.first_name}](tg://user?id={bot_info.id}) ᴏғғ ʜᴀɪ. ᴀᴄᴄʜᴀ ʜᴜᴀ ᴅᴇᴋʜ ʟɪʏᴀ ᴍᴀɪɴᴇ.**")
+                                    await app.send_message(int(GRP_ID), f"**ʙᴏᴛ ɪs ᴏғғʟɪɴᴇ ᴄʜᴇᴄᴋ ᴘᴀɴᴜ ᴅᴀ ᴘᴀᴋᴋɪɪ 😡\n[{bot_info.first_name}](tg://user?id={bot_info.id}) ʙᴏᴛ ᴏғғ ᴀᴄʜᴜ ᴘᴏɪ ᴄʜᴇᴄᴋ ᴘᴀɴᴜ.**")
                                 except Exception:...
                             await app.read_chat_history(bot)
                         else:
